@@ -1,0 +1,48 @@
+body{
+    background: linear-gradient(black,rgb(0, 59, 0));
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 450px;
+}
+
+.Central{
+    background-color: rgb(255, 255, 255);
+    width: 450px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+button{
+    width: 200px;
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+
+.ba{
+    color: rgb(57, 57, 250);
+}
+
+.vi{
+    color: red;
+}
+
+.rm{
+    color: rgb(226, 205, 12);
+}
+
+.ro{
+    color: orange;
+}
+
+button:hover{
+    transform: scale(0.9);
+    transition: 0.5s;
+}
