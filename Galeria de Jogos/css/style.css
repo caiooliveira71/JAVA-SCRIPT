@@ -1,0 +1,45 @@
+body{
+    background-image: url(../image/jogo.jpeg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 600px;
+    border-radius: 30px;
+}
+
+.central{
+    width: 600px;
+    background-color: rgba(54, 1, 114, 0.822);
+    border-radius: 30px;
+}
+
+.bu{
+    width: fit-content;
+    margin: auto;
+    padding: 20px;
+}
+
+button{
+    height: 25px;
+    width: 160px;
+    background-color: rgb(175, 175, 175);
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.cyber{
+    color: rgb(255, 255, 8);
+}
+
+.red{
+    color: rgb(211, 1, 1);
+}
+
+.last{
+    color: rgb(129, 33, 33);
+}
