@@ -1,0 +1,38 @@
+@font-face{
+    font-family: relogio;
+    src: url(/font/ds_digital/DS-DIGI.TTF);
+}
+
+
+body{
+    background: url(../image/paisagem.jpg);
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.central{
+    background-color: #173f7369;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    width: fit-content;
+    border-radius: 50px;
+    backdrop-filter: blur(2px);
+}
+
+.central div{
+    padding: 20px;
+    border-radius: 200px;
+    background-color: #f2af5efa;
+    font-size: 100px;
+    font-family: relogio;
+}
+
+.central span{
+    font-size: 100px;
+    color: #123066;
+}
