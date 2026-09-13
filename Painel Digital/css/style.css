@@ -1,0 +1,77 @@
+body{
+    background: url(../image/cyber.webp);
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.central{
+    background-color: #2F048C;
+    width: 600px;
+    height: 500px;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.central h1{
+    font-size: 70px;
+    letter-spacing: 4px;
+    margin-bottom: 30px;
+    color: #8C0483;
+}
+
+.relogio{
+    font-size: 35px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #8C0483;
+}
+
+.data{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #8C0483;
+}
+
+.informação{
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.caixa{
+    width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #AA7BD8;
+}
+
+.caixa span{
+    font-size: 20px;
+    color: #04C4D9;
+}
+
+#mensagem{
+    font-size: 45px;
+    color: #E9A6D7;
+    background-color: #AA7BD8;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+p{
+    font-size: 15px;
+    color: #AA7BD8;
+}
+
+
