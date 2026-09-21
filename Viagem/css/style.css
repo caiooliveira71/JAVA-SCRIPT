@@ -1,0 +1,63 @@
+body{
+    background: url(../image/carro.avif);
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.central{
+    background-color: rgba(0, 0, 0, 0.596);
+    backdrop-filter: blur(4px);
+    width: 600px;
+    height: 500px;
+    padding: 10px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 
+    0 0 5px #F90A0A,
+    0 0 10px #9e0000,
+    0 0 20px #a70606,
+    0 0 40px #ff1601;
+}
+
+.central h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #A60303;
+}
+
+.central input{
+    font-size: 20px;
+    width: 95%;
+    height: 20px;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+
+.central button{
+    width: fit-content;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    color: #A60303;
+    background-color: rgba(34, 33, 33, 0.644);
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    &:hover{
+        transition: 1.2s;
+        transform: scale(1.05);
+    }
+}
+
+.central span{
+    font-size: 30px;
+    margin: 2px;
+    color: #A60303;
+}
