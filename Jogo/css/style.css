@@ -1,0 +1,63 @@
+body{
+    background: #182033;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#cenario{
+    background: #bdeaff;
+    width: 60%;
+    height: 300px;
+    border-bottom: 15px solid rgb(94, 24, 24);
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+#boneco{
+    width: 70px;
+    height: 70px;
+    font-size: 80px;
+    position: absolute;
+    bottom: 27px;
+    left: -16px;
+}
+
+#obstaculo{
+    background: linear-gradient(red,yellow);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    filter: blur(1px);
+    filter: drop-shadow(1px 1px 10px red);
+    position: absolute;
+    bottom: 0px;
+    right: 20px;
+    animation: mover 1s linear infinite;
+}
+
+@keyframes mover {
+    0%{
+        left: 600px;
+    }
+    100%{
+        left: -30px;
+    }
+}
+
+@keyframes pular{
+    0%{
+        bottom: 27px;
+    }
+    50%{
+        bottom: 150px;
+    }
+    100%{
+        bottom: 27px;
+    }
+}
+
+.pular{
+    animation: pular 0.8s linear;
+}
